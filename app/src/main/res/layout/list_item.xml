@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/dp_16"
+    android:id="@+id/item">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/song_name"
+        android:drawableLeft="@drawable/play"
+        android:drawableStart="@drawable/play"
+        android:drawablePadding="@dimen/dp_16"
+        android:text="@string/galti_se_mistake"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Movie_name"
+        android:layout_marginLeft="@dimen/dp_44"
+        android:layout_marginStart="@dimen/dp_44"
+        android:text="@string/jagga_jasoos"/>
+</LinearLayout>

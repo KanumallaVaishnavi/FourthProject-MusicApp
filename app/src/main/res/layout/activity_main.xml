@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/dp_16"
+        android:text="@string/heading_main"
+        android:textColor="@android:color/holo_blue_light"
+        android:textSize="@dimen/sp_25"/>
+    <TextView
+        android:id="@+id/arjit"
+        style="@style/CategoryStyle"
+        android:layout_gravity="center"
+        android:drawableLeft="@drawable/arjit"
+        android:drawableStart="@drawable/arjit"
+        android:drawablePadding="@dimen/dp_16"
+        android:layout_marginTop="@dimen/dp_16"
+        android:text="@string/arjit_singh"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_blue_light"
+        android:textSize="@dimen/sp_20"/>
+    <TextView
+        android:id="@+id/sonu"
+        style="@style/CategoryStyle"
+        android:layout_gravity="center"
+        android:drawableLeft="@drawable/sonu"
+        android:drawableStart="@drawable/sonu"
+        android:drawablePadding="@dimen/dp_16"
+        android:text="@string/sonu_nigam"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_blue_light"
+        android:textSize="@dimen/sp_20"/>
+</LinearLayout>

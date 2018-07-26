@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MusicApp</string>
+    <string name="heading_main">Select your favourite artist</string>
+    <string name="arjit_singh">Arjit Singh</string>
+    <string name="sonu_nigam">Sonu Nigam</string>
+    <string name="jagga_jasoos">Jagga Jasoos</string>
+    <string name="galti_se_mistake">Galti Se Mistake</string>
+</resources>
